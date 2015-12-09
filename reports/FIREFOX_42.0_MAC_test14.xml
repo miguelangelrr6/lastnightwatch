@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test14"
+    errors="1" failures="1" hostname="" id="" package="test14" skipped="0"
+    tests="1" time="0.000" timestamp="Thu, 12 Nov 2015 21:19:53 GMT">
+  
+    <testcase name="demoTest" time="6.251" assertions="4">
+
+      <failure message="Failed [equal]: (-1 == 0)">Failed [equal]: (-1 == 0): Failed [equal]: (-1 == 0) - Expected &quot;0&quot; but got: &quot;-1&quot;
+    at Object.equal (/usr/local/lib/node_modules/nightwatch/lib/core/api.js:67:24)
+    at Object.&lt;anonymous&gt; (/Users/miguelangel/Documents/AutomaticTest/nightwatch/tests/test14.js:4:18)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:20)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:362:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:157:16)</failure>
+
+      <failure message="Failed [equal]: (undefined == 200)">Failed [equal]: (undefined == 200): Failed [equal]: (undefined == 200) - Expected &quot;200&quot; but got: &quot;undefined&quot;
+    at Object.equal (/usr/local/lib/node_modules/nightwatch/lib/core/api.js:67:24)
+    at Object.&lt;anonymous&gt; (/Users/miguelangel/Documents/AutomaticTest/nightwatch/tests/test14.js:5:18)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:20)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:362:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:157:16)</failure>
+
+      <failure message="Failed [equal]: (undefined == 200)">Failed [equal]: (undefined == 200): Failed [equal]: (undefined == 200) - Expected &quot;200&quot; but got: &quot;undefined&quot;
+    at Object.equal (/usr/local/lib/node_modules/nightwatch/lib/core/api.js:67:24)
+    at Object.&lt;anonymous&gt; (/Users/miguelangel/Documents/AutomaticTest/nightwatch/tests/test14.js:6:18)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:20)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:362:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:157:16)</failure>
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;#main ul li a.first&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

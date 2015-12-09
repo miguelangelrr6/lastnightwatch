@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test1"
+    errors="1" failures="0" hostname="" id="" package="test1" skipped="0"
+    tests="1" time="0.000" timestamp="Thu, 29 Oct 2015 19:54:57 GMT">
+  
+    <testcase name="Plataforma 28 Test" time="15.75" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;.block_xp-level-progress&quot; using: css selector
+ ERROR: Unable to locate element: &quot;.block_xp-level-progress&quot; using: css selector
+ ERROR: Unable to locate element: &quot;.block_xp-level-progress&quot; using: css selector
+ ERROR: Unable to locate element: &quot;.block_xp-level-progress&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

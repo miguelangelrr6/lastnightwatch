@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test15"
+    errors="0" failures="1" hostname="" id="" package="test15" skipped="0"
+    tests="1" time="0.000" timestamp="Thu, 12 Nov 2015 21:26:58 GMT">
+  
+    <testcase name="logeo Moodle" time="8.452" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [equal]: (74 == 200)">Failed [equal]: (74 == 200): Failed [equal]: (74 == 200) - Expected &quot;200&quot; but got: &quot;74&quot;
+    at Object.equal (/usr/local/lib/node_modules/nightwatch/lib/core/api.js:67:24)
+    at Object.&lt;anonymous&gt; (/Users/miguelangel/Documents/AutomaticTest/nightwatch/tests/test15.js:18:15)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands.js:360:20)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:20)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:351:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:155:16)</failure>
+
+      <failure message="Failed [equal]: (651 == 200)">Failed [equal]: (651 == 200): Failed [equal]: (651 == 200) - Expected &quot;200&quot; but got: &quot;651&quot;
+    at Object.equal (/usr/local/lib/node_modules/nightwatch/lib/core/api.js:67:24)
+    at Object.&lt;anonymous&gt; (/Users/miguelangel/Documents/AutomaticTest/nightwatch/tests/test15.js:19:15)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands.js:360:20)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:322:20)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:351:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:155:16)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
